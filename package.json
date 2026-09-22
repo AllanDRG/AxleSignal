@@ -1,0 +1,14 @@
+{
+  "name": "axlesignal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cada carga, una decisi\u00f3n trazable. Base de Global Dispatch con reglas verificables.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/decision-demo.js"
+  }
+}
