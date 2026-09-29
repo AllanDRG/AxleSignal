@@ -1,3 +1,3 @@
-# Integración pendiente
+# Mensajería
 
-Implementar adaptador Solace, publicación persistente con confirmación, consumidores con ACK posterior al guardado y deduplicación. Contratos y destinos definidos en `../../docs/architecture.md`. No sustituir el broker real por una simulación en la entrega.
+`solace.js` conecta las dos colas reales, agrega suscripciones, publica mensajes persistentes y confirma el consumo después del guardado. Ver `docs/solace-setup.md`.

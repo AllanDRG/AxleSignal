@@ -1,3 +1,3 @@
-# Casos de uso pendientes
+# Aplicación
 
-Implementar recepción y registro de solicitudes, despacho del outbox, consulta de resultados y aceptación atómica de una carga. El validador en `../domain/` ya es ejecutable.
+`store.js` implementa SQLite, recepción, outbox, consumo idempotente y asignación atómica.

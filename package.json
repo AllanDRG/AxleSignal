@@ -1,14 +1,18 @@
 {
   "name": "axlesignal",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Cada carga, una decisi\u00f3n trazable. Base de Global Dispatch con reglas verificables.",
   "type": "module",
+  "description": "Cada carga, una decisi\u00f3n trazable. Global Dispatch con Solace.",
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
     "test": "node --test",
     "demo": "node examples/decision-demo.js"
+  },
+  "dependencies": {
+    "solclientjs": "^10.0.0"
   }
 }
